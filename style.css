@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #d5e1ef;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+@media only screen and (max-width:700px) {
+    h1, h2, h3, h4, h5, h6, p {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:375px) {
+    .card {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .card {
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width:700px) {
+    h1, h2, h3, h4, h5, h6, p {
+        text-align: justify;
+        text-align-last: center;
+    }
+}
+
+@font-face {
+    font-family: "outfit-bold";
+    src: url("./fonts/Outfit-Bold.ttf");
+}
+
+@font-face {
+    font-family: "outfit-llight";
+    src: url("./fonts/Outfit-Light.ttf");
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "outfit-bold";
+}
+
+p {
+
+    font-size: 15px;
+    font-family: "outfit-light";
+}
+
+.shadow-sm {
+    box-shadow: 0px 4px 50px 7px rgb(122 122 122 / 15%);
+
+    -webkit-box-shadow: 0px 4px 50px 7px rgb(122 122 122 / 15%);
+
+    -moz-box-shadow: 0px 4px 50px 7px rgb(122 122 122 / 15%);
+
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.container {
+    margin: auto;
+}
+
+img {
+    border-radius: 15px;
+}
+
+.card {
+    padding: 18px;
+    border-radius: 22px;
+    margin: auto;
+    background-color: white;
+
+}
+
+p {
+    color: #aeaeb8;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.card-content-container {
+    padding: 15px;
+    text-align: center;
+}
